@@ -120,6 +120,7 @@ class App extends React.Component {
         <div className="contact-holder">
           {this.render_helper()}
           {this.input_form()}
+          {this.state.post_confirm ? <div>data inserted</div> : <div></div>}
         </div>
 
       </div>
